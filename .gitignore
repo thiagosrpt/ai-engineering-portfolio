@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Data & model artifacts
+data/
+*.csv
+*.parquet
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+models/
+
+# Node (if any tooling/sites are added)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
